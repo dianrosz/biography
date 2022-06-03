@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: snow;
+}
+
+
+h1 {
+   font-size: 60px;
+   font-family: 'Abril Fatface', cursive;
+   color: snow;
+   margin: auto;
+   padding-bottom: 20px;
+}
+
+h2{
+   font-family: 'Tiro Gurmukhi', serif;
+   font-size: 38px;
+   text-align: center;
+   color: #024249;
+}
+
+p {
+   font-family: 'Tiro Gurmukhi', serif;
+   font-size: 18px;
+   margin: 0;
+  }
+
+.jumbotron {
+   font-family: 'Tiro Gurmukhi', serif;
+   font-size: 24px;
+   padding: 60px;
+   background-color: #024249;
+   text-align: justify;
+   color: snow;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 50px;
+   margin: 30px;
+   margin-top: 20px;
+
+}
+
+.short-profile{
+   font-family: 'Tiro Gurmukhi', serif;
+   color: snow;
+}
+
+nav {
+   background-color: cadetblue;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+   padding-left: 6.75%;
+ }
+ 
+ nav a {
+   font-size: 18px;
+   font-weight: 600;
+   text-decoration: none;
+   color: snow;
+ }
+ 
+ nav a:hover {
+   color: snow;
+ }
+ 
+ nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+ }
+
+ #content{
+    justify-content: center;
+    text-align: center;
+ }
+
+   
+
+
+@media screen and (max-width: 1080px) {
+   h1 {
+     font-size: 350%;
+   }
+ 
+   #content,
+
+   main {
+     padding: 20px;
+     overflow: auto;
+     margin: 0 1%;
+   }
+ 
+   nav {
+     padding-left: 0px;
+   }
+ }
+ 
